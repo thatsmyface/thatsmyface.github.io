@@ -94,7 +94,16 @@ a{
        position: fixed;     
        text-align: left;    
        bottom: 0px; 
-       width: 100%;
+       width: 50%;
+    background-color: yellow;
+   }
+.footer22{ 
+    font-size: 15px;
+       position: fixed;     
+       text-align: right;    
+       bottom: 0px; 
+       left:50%;
+       width: 50%;
     background-color: yellow;
    }
 .message{ 
