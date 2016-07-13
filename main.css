@@ -60,7 +60,15 @@ a:visited:hover {
     width: 100%;
     text-align: center;
     position: absolute;
-    top:50%;
+    top:43%;
+    font-family: min;
+}
+#click2{
+    font-size: 72px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top:67%;
     font-family: min;
 }
 #up{
