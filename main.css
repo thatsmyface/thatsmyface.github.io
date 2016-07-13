@@ -1,12 +1,12 @@
 /*Load Fonts*/
 @font-face {
     font-family: head;
-    src: url('head.ttf');
+    src: url('assets/head.ttf');
 }
 
 @font-face {
     font-family: min;
-    src: url('min.otf');
+    src: url('assets/min.otf');
 }
 
 /*Styling for Headings*/
