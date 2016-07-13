@@ -102,7 +102,7 @@ a{
        position: fixed;     
        text-align: right;    
        bottom: 0px; 
-       left:50%;
+       right:30%;
        width: 30%;
     background-color: yellow;
    }
