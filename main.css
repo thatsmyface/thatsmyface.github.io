@@ -1,0 +1,67 @@
+/*Load Fonts*/
+@font-face {
+    font-family: head;
+    src: url('head.ttf');
+}
+
+@font-face {
+    font-family: min;
+    src: url('min.otf');
+}
+
+/*Styling for Headings*/
+h1{
+    text-align: center;
+    font-family: head;
+    font-size: 100px;
+    line-height: 100px;
+}
+
+/*Styling for NavBar*/
+li {
+    display: inline;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    font-family: min;
+    text-align: center;
+    position: absolute;
+    top:100px; right:24.2%
+    
+    
+    
+}
+
+/*Styling for Links*/
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: darkorange;
+}
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+a:visited:hover {
+    text-decoration: none;
+    color: darkorange;
+}
+#up{
+    font-family: min;
+    font-size: 32px;
+    position: absolute;
+    left: 45%
+}
+
+/*Styling for Paragraph Text*/
+#text{
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    font-size: 18px;
+    font-family: monospace;
+}
