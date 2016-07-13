@@ -1,0 +1,148 @@
+html, body
+{
+    height: 100%;
+    margin:0;
+    padding:0;
+    background-color: #ccff5c;
+    background-image: url("pepe.jpg");
+    background-repeat: round;
+    background-origin: padding-box;
+}
+
+.h1 {
+    text-align: center;
+    font-family: "Comic Sans MS", serif;
+    padding-top: 10px;
+    color: lightcoral;
+    background-color: greenyellow;
+    opacity:.97;
+    font-size: 20px;
+    position:sticky;
+}
+
+.topleft{
+    position:fixed;
+    
+}
+
+div iframe {
+    position:absolute;
+    top:64;
+    left:0;
+    right:0;
+    bottom:20;
+    margin:auto;
+}
+.footer{ 
+    font-family: monospace;
+       position: fixed;     
+       text-align: center;    
+       bottom: 24px; 
+       width: 100%;
+       background-color: yellow;
+       opacity:.93;
+   }  
+.footer1{ 
+    font-size: 15px;
+    font-family: monospace;
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+       background-color: yellow;
+       opacity:.93;
+   }  
+.footer12{ 
+    font-size: 15px;
+    font-family: monospace;
+       position: fixed;     
+       text-align: center;    
+       bottom: 23px; 
+       width: 100%;
+       background-color: yellow;
+       opacity:.93;
+       font-family: "Comic Sans MS", serif;
+   }  
+.footer12 a{
+     font-family: "Comic Sans MS", serif;
+}
+.footer21 a{
+     font-family: "Comic Sans MS", serif;
+}
+.footer-1{ 
+    font-size: 15px;
+    font-family: monospace;
+       position: fixed;     
+       text-align: center;    
+       bottom: 48px; 
+       width: 100%;
+       background-color: yellow;
+       opacity:.93;
+   }  
+a{
+    font-family: "Helvetica";
+}
+.footer2{ 
+    font-size: 15px;
+       position: fixed;     
+       text-align: left;    
+       bottom: 0px; 
+       width: 100%;
+   }
+.footer21{ 
+    font-size: 15px;
+       position: fixed;     
+       text-align: left;    
+       bottom: 0px; 
+       width: 100%;
+    background-color: yellow;
+   }
+.message{ 
+    font-size: 15px;
+    font-family: monospace;
+       position: fixed;     
+       text-align: center;    
+       bottom: 50%; 
+       width: 100%;
+       background-color: yellow;
+       opacity:.93;
+   }
+.footer2 a {
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+}
+.footer2 a:hover {
+    color: deeppink;
+}
+.footer1 a {
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+}
+.footer1 a:hover {
+    color: deeppink;
+}
+.footer3{ 
+    font-size: 15px;
+    font-family: monospace;
+       position: fixed;     
+       text-align: right;    
+       bottom: 0px; 
+       width: 30%;
+   }
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: deeppink;
+}
+.poop{
+    font-size: 48px;
+    text-align: center;
+}
+.centerplease{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
