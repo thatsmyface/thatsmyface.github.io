@@ -57,19 +57,31 @@ a:visited:hover {
 }
 #click{
     font-size: 72px;
-    width: 100%;
+    width: 90%;
     text-align: center;
     position: absolute;
     top:43%;
     font-family: min;
+    left:5%;
+    border-radius: 10px;
+    background-color:#c7c6c5;
+}
+#click:hover{
+    background-color:darkslategray;
 }
 #click2{
     font-size: 72px;
-    width: 100%;
+    width: 90%;
     text-align: center;
     position: absolute;
     top:67%;
     font-family: min;
+    left:5%;
+    border-radius: 10px;
+    background-color:#c7c6c5;
+}
+#click2:hover{
+    background-color:darkslategray;
 }
 #up{
     font-family: min;
