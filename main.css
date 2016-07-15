@@ -100,6 +100,10 @@ a:visited:hover {
     font-family: monospace;
 }
 
+h3{
+    font-family:monospace;
+    text-align:center;
+}
 /*.secret{
     color: aquamarine
 }*/
