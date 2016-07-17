@@ -55,6 +55,7 @@ a:visited:hover {
     text-decoration: none;
     color: darkorange;
 }
+/* Specific Divs */
 #click{
     font-size: 72px;
     width: 90%;
@@ -104,6 +105,9 @@ h3{
     font-family:monospace;
     text-align:center;
 }
-/*.secret{
-    color: aquamarine
-}*/
+
+#red{
+    text-align: center;
+    font-family: monospace;
+    font-size:14;
+}
