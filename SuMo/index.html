@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>S+M SpriteViewer</title>
+    </head>
+    <body>
+        <h1>Pok&eacute;mon Sun + Moon Demo: Datamined Sprite Viewer</h1>
+        <h3>Brought to you by ThatsMyFace (images mined by <a href ="https://twitter.com/KazoWAR/status/788279824796229632">@KazoWAR</a>).</h3>
+        <p><i>All sprites are owned by The Pok&eacute;mon Company International.</i></p>
+        choose a sprite to view:
+        
+        <select id="num">
+        </select>
+        <button type="button" onclick="backward()">Back</button>
+        <button type="button" onclick="forward()">Next</button>
+        <p></p>
+        <img id="image" src ="img/001.png">
+        <script>
+            var x = 1;
+            var f;
+            var select = document.getElementById("num");
+            
+            for (var i = 1; i < 854; i++){
+                pad(i,3);
+                var el = document.createElement("OPTION");
+                el.textContent = i;
+                el.value = f;
+                select.appendChild(el);
+            }
+            function pad(number, length) {
+                f = '' + number;
+                while (f.length < length) {
+                    f = '0' + f;
+                }
+                return f;
+            }
+            function forward() {
+                x=x+1;
+                if (x>854){
+                    x = 854;
+                }
+                pad(x,3);
+                document.getElementById("image").src = "img/"+ f + ".png";
+                document.getElementById("num").value = f;
+            }
+            function backward() {
+                x=x-1;
+                if (x<0){
+                    x = 0;
+                }
+                pad(x,3);
+                document.getElementById("image").src = "img/"+ f + ".png";
+                document.getElementById("num").value = f;
+            }
+            
+            select.onclick = handleClick;
+            function handleClick() {
+                document.getElementById("image").src = "img/"+ document.getElementById("num").value + ".png";
+                x = parseInt(document.getElementById("num").value);
+                
+            }
+        </script>
+    </body>
+</html>
