@@ -6,13 +6,17 @@
         
         <h1>I guess we'll see if this works...</h1>
         <h4 id="loaded"></h4>
+        <button onclick="generate()">Regenerate</button>
         
         <script>
-            //Change the first 2 to max
-            var num = Math.floor(Math.random() * (2 - 1 + 1)) + 1;
-            var allText = "";
-            readTextFile("data/"+num+".txt");
-            
+            var max = 2;
+            generate();
+            function generate(){
+                //Change the first 2 to max
+                var num = Math.floor(Math.random() * (max - 1 + 1)) + 1;
+                var allText = "";
+                readTextFile("data/"+num+".txt");
+            }
             function readTextFile(file){
                 var rawFile = new XMLHttpRequest();
                 rawFile.open("GET", file, false);
