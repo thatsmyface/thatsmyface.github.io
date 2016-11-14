@@ -24,10 +24,10 @@
                         {
                             allText = rawFile.responseText;
                             console.log(allText);
+                            document.getElementById("loaded").innerHTML =  allText; 
                         }
                     }
-                }
-                document.getElementById("loaded").innerHTML =  allText;   
+                }  
                 rawFile.send(null);
             }
         </script>
