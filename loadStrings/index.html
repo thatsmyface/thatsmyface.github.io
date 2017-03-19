@@ -1,15 +1,28 @@
 <html>
     <head>
-        <title>loadStrings</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>Fortune Teller!</title>
+        <link rel='shortcut icon' href='cookie.png' type='image/x-icon'/ >
     </head>
     <body>
         
-        <h1>I guess we'll see if this works...</h1>
-        <h4 id="loaded"></h4>
-        <button onclick="generate()">Regenerate</button>
+        <div id="title">
+            <h1>Your fortune is...</h1>
+        </div>
+        
+        <img src="cookie.png" id = "cookie" onclick="generate()">
+        <div id = "fake"></div>
+        <div id ="fortune">
+            <h4 id="loaded"></h4>
+        </div>
+        
+        <div id = "instruct">
+            <h2>Click the cookie for a new fortune!</h2>
+        </div>
+        
         
         <script>
-            var max = 2;
+            var max = 3;
             generate();
             function generate(){
                 //Change the first 2 to max

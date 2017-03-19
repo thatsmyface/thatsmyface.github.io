@@ -1,0 +1,77 @@
+@font-face {
+    font-family: title;
+    src: url('title.ttf')
+}
+
+@font-face {
+    font-family: fortune;
+    src: url('fortune.ttf');
+}
+
+@font-face {
+    font-family: instruct;
+    src: url('instruct.ttf');
+}
+
+body{
+    background-image: url(back2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+
+#title{
+    color: gold;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top:10%;
+    background-color: black;
+    font-family: title;
+    font-size: 20px;
+}
+
+#fake{
+    position: fixed;
+    width: 70%;
+    height: 80px;
+    top:47.5%;
+    background-color: white;
+    line-height: 10px;
+    margin-left: 15%;
+    vertical-align: middle;
+}
+#fortune{
+    color:black;
+    text-align: center;
+    position: fixed;
+    width: 70%;
+    height: 80px;
+    top:47.5%;
+    background-color: white;
+    font-family: fortune;
+    font-size: 30px;
+    word-wrap: break-word;
+    line-height: 10px;
+    margin-left: 19%;
+    vertical-align: middle;
+}
+
+#instruct{
+    color:black;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom:10%;
+    font-size: 30px;
+    font-family: instruct;
+}
+
+#cookie{
+    height: 15%;
+    position: fixed;
+    top:40%;
+    left:10%;
+    z-index: 100;
+}
