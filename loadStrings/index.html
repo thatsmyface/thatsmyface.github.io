@@ -1,19 +1,16 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="main.css">
-        <title>Fortune Teller!</title>
-        <link rel='shortcut icon' href='cookie.png' type='image/x-icon'/ >
+        <title>Funny Cookie!</title>
+        <link rel='shortcut icon' href='icon.png' type='image/x-icon'/ >
     </head>
     <body>
-        
-        <div id="title">
-            <h1>Your fortune is...</h1>
-        </div>
+        <div id="maintitle"><h2>Your <span id="title">Funny Cookie</span> prophesizes...</h2></div>
         
         <img src="cookie.png" id = "cookie" onclick="generate()">
         <div id = "fake"></div>
         <div id ="fortune">
-            <h4 id="loaded"></h4>
+            <h4 id="loaded">This website is a scam.</h4>
         </div>
         
         <div id = "instruct">
@@ -22,10 +19,8 @@
         
         
         <script>
-            var max = 3;
-            generate();
+            var max = 4;
             function generate(){
-                //Change the first 2 to max
                 var num = Math.floor(Math.random() * (max - 1 + 1)) + 1;
                 var allText = "";
                 readTextFile("data/"+num+".txt");

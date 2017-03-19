@@ -1,4 +1,8 @@
 @font-face {
+    font-family: maintext;
+    src: url('MainText.otf')
+}
+@font-face {
     font-family: title;
     src: url('title.ttf')
 }
@@ -20,58 +24,74 @@ body{
     margin: 0;
 }
 
-
-#title{
+#maintitle{
     color: gold;
+    background-color: black;
     text-align: center;
     position: fixed;
     width: 100%;
-    top:10%;
-    background-color: black;
+    top:0%;
+    
+    color: white;
     font-family: title;
-    font-size: 20px;
+    font-size: 32px;
+    line-height: 32px;
+    vertical-align: center;
+}
+
+#title{
+    font-family: maintext;
+    font-size: 54px;
+    color: gold;
 }
 
 #fake{
     position: fixed;
-    width: 70%;
-    height: 80px;
+    width: 80%;
+    height: 100px;
     top:47.5%;
     background-color: white;
     line-height: 10px;
-    margin-left: 15%;
+    right: 15%;
     vertical-align: middle;
 }
 #fortune{
     color:black;
-    text-align: center;
+    text-align: left;
     position: fixed;
-    width: 70%;
-    height: 80px;
+    width: 65%;
+    height: 100px;
     top:47.5%;
     background-color: white;
     font-family: fortune;
     font-size: 30px;
     word-wrap: break-word;
-    line-height: 10px;
-    margin-left: 19%;
+    line-height: 01;
+    right: 25%;
     vertical-align: middle;
+    display: table;
+  text-align: center;
 }
 
+h4{
+  display: table-cell;
+  vertical-align: middle;
+}
 #instruct{
-    color:black;
+    color:white;
     text-align: center;
     position: fixed;
     width: 100%;
-    bottom:10%;
-    font-size: 30px;
+    bottom:0%;
+    font-size: 17px;
     font-family: instruct;
+    background-color: black;
 }
 
 #cookie{
     height: 15%;
     position: fixed;
     top:40%;
-    left:10%;
+    right:10%;
     z-index: 100;
 }
