@@ -6,12 +6,10 @@
     font-family: title;
     src: url('title.ttf')
 }
-
 @font-face {
     font-family: fortune;
     src: url('fortune.ttf');
 }
-
 @font-face {
     font-family: instruct;
     src: url('instruct.ttf');
@@ -77,6 +75,7 @@ h4{
   display: table-cell;
   vertical-align: middle;
 }
+
 #instruct{
     color:white;
     text-align: center;
